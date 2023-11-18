@@ -1,0 +1,33 @@
+.buttons{
+    display: flex;
+}
+
+.buttons>button{
+    background-color: black;
+    color: white;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px black;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+
+.card input, .card button{
+    margin: 5px;
+}
+
+
+.errorMessage{
+    font-size: 10px;
+}
+
+
+
